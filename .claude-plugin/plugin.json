@@ -1,0 +1,13 @@
+{
+  "name": "session-rename-hooks",
+  "version": "1.0.0",
+  "description": "Automatically names Claude Code sessions based on the current git branch. First session uses branch name, subsequent sessions get incremental numbers (e.g., 'feature-x', 'feature-x (2)', 'feature-x (3)').",
+  "author": {
+    "name": "rafaelcalleja",
+    "email": "rafaelcalleja@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["session", "naming", "git", "branch", "hooks"],
+  "category": "productivity",
+  "repository": "https://github.com/rafaelcalleja/session-rename-hooks"
+}

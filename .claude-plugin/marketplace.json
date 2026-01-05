@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "session-rename-hooks",
+  "description": "Automatically names Claude Code sessions based on the current git branch",
+  "owner": {
+    "name": "rafaelcalleja",
+    "email": "rafaelcalleja@gmail.com"
+  },
+  "metadata": {
+    "description": "Git branch-based session naming for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "session-rename-hooks",
+      "source": ".",
+      "description": "Automatically names Claude Code sessions based on the current git branch. First session uses branch name, subsequent sessions get incremental numbers (e.g., 'feature-x', 'feature-x (2)', 'feature-x (3)').",
+      "version": "1.0.0",
+      "author": {
+        "name": "rafaelcalleja",
+        "email": "rafaelcalleja@gmail.com"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["session", "naming", "git", "branch", "hooks"],
+      "tags": ["session-management", "git-integration", "automation"]
+    }
+  ]
+}

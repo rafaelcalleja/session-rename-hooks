@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "session-rename-hooks",
-      "source": ".",
+      "source": "./",
       "description": "Automatically names Claude Code sessions based on the current git branch. First session uses branch name, subsequent sessions get incremental numbers (e.g., 'feature-x', 'feature-x (2)', 'feature-x (3)').",
       "version": "1.0.0",
       "author": {

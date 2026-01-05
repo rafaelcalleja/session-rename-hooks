@@ -8,6 +8,5 @@
   },
   "license": "MIT",
   "keywords": ["session", "naming", "git", "branch", "hooks"],
-  "category": "productivity",
   "repository": "https://github.com/rafaelcalleja/session-rename-hooks"
 }
